@@ -12,7 +12,7 @@ namespace SimpleFIRECalculator
         public void Start()
         {
             Console.WriteLine(StandardMessages.ApplicationStartMessage());
-            Console.WriteLine("Press any key to start...");
+            Console.WriteLine("Press Enter to start...");
             Console.ReadLine();
             _annualExpenses = GetUserNumberInput("number for annual expenses");
             _withdrawalRate = Decimal.Divide(GetUserNumberInput("desired withdrawal rate"), 100);
